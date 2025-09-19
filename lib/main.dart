@@ -24,10 +24,12 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: Platform.isAndroid
         ? const FirebaseOptions(
-            apiKey: "AIzaSyCJTSx5uRQugj04pIKadUCEoPJ64FxqPjk",
-            appId: "1:271246400948:android:a4235f6432a21f526d66e1",
-            messagingSenderId: "271246400948",
-            projectId: "swapit-2963b",
+            // apiKey: "",
+            // appId: "",
+            // messagingSenderId: "",
+            // projectId: "",
+
+// please add your own Firebase creditionls
           )
         : null,
   );
