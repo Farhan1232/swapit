@@ -1,16 +1,27 @@
-# swapit
+Swapit
 
-A new Flutter project.
+Swapit is an AI-powered cross-platform application that enables seamless multimedia transformations such as face swapping, text-to-image generation, text-to-video creation, voice-to-text transcription, and text-to-speech conversion. The app is built with Flutter using the Provider + MVC architecture, and powered by a FastAPI backend for high-performance AI model serving.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+🎭 Face Swapping – Upload or capture photos to swap faces with realistic output.
 
-A few resources to get you started if this is your first Flutter project:
+🖼️ Text-to-Image – Generate high-quality images from textual prompts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🎬 Text-to-Video – Convert descriptive text into AI-generated videos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🎤 Voice-to-Text – Transcribe speech into accurate text in real-time.
+
+🔊 Text-to-Voice – Convert written text into natural-sounding speech.
+
+⚡ FastAPI Backend – Handles AI model processing with scalability.
+
+📱 Flutter Frontend (Provider + MVC) – Ensures smooth state management and clean architecture.
+
+🛠️ Tech Stack
+
+Frontend: Flutter (Provider + MVC pattern)
+
+Backend: FastAPI (Python)
+
+AI Models: Text-to-Image, Text-to-Video, Speech-to-Text, Text-to-Speech, Face Swap models (integrated via FastAPI)
